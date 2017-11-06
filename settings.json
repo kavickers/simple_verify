@@ -1,0 +1,7 @@
+{
+    "token":"insert discord bot token here",
+    "sqldb": "mysql database goes here",
+    "sqluser": "mysql user goes here",
+    "sqlpass": "mysql password goes here",
+    "sqlhost": "mysql host goes here"
+}
