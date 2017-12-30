@@ -26,6 +26,7 @@ if ($generate) {
 	$gentoken = $handler->prepare("UPDATE users SET discordToken = ? WHERE id = ?"); // again, same here, edit this accordingly to how you retrieve variables
 	$gentoken->execute(array($token, $myU->id)); // again, same here, please edit accordingly to how you retrieve user variables [like the id]
 	header('Location: https://www.yourwebsite.com/discord'); // you can have it located in any type of file hierchy, just please edit it here!
+	die();
 }
 
 ?>
