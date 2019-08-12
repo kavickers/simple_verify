@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const token = require('./settings.json').token;
 const settings = require('./settings.json');
-const mysql = require('mysql')
+const mysql = require('mysql');
 
 //more client.on's!! client.on('', =>{});
 
